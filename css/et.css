@@ -1,0 +1,84 @@
+.encabezado{
+    color:white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.barra{
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+}
+
+a{
+    justify-content: center;
+    color: white;
+    text-decoration: none;/*Este comando quita la mangen de los vinculos */
+    
+}
+.objetos{
+    list-style: none;/*Este comando quita las viñetas de los vinculos*/
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+   
+}
+.objetos a{
+    font-size: 50px;/*Este comando define el tamaño de los vinculos*/
+    padding: 5px;/*Este comando pone un espacio entre cada vinculo*/
+    display: block;/*Este comando bloquea el texto para que no se pueda superponer uno encima del otro*/
+    padding: 0 50px;
+    
+   
+}
+.objetos a:hover{
+    font-weight: bold;/*Este comando pone el vinculo en negrita cuando el mouse pasa encima de el*/
+    color: aqua;/*Este comando cambia el color del vinculo cuando el mouse pasa encima de el*/
+}
+.objetos li{
+    float: left;
+}
+.objetos ul{
+   
+    display: flex;
+    justify-content: center;
+
+}
+.carousel-item{
+    width: 100px;
+    height: 800px;
+}
+p{
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size:100px;
+}
+.vinculo{
+    width: auto;
+    height: auto;
+    background: linear-gradient(black,white);
+}
+.nos{
+    justify-content: left;
+    color: rgb(115, 0, 255);
+    font-size: 40px; ;
+}
+.ons{
+    justify-content: right;
+    color: rgb(115, 0, 255);
+    font-size: 50px; ;
+}
+.formulario{
+    
+    font-display: flex;
+    justify-content: center;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+}
